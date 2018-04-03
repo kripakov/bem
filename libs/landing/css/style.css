@@ -1,0 +1,49 @@
+html{
+  height:100%; /* allows body tag to take full height */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.landing-wrapper {
+  width: 100%;
+  height: 340px;
+  position: absolute;
+  bottom: 0px;
+  overflow:hidden;
+}
+
+.landing-inner-content {
+  background: red;
+  width: 2800px;
+  height: 250px;
+  position:relative;
+  bottom:-200px;
+}
+
+.box {
+  position: relative;
+  background: rgba(0, 50, 502, 0.3);
+  width: 240px;
+  height: 120px;
+  margin: 20px;
+  float: left;
+}
+
+.box-content {
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: -120px;
+  z-index: 999;
+}
+
+.box-content img {
+  width: 100%;
+}

@@ -1,0 +1,7 @@
+.pushy-contact__email{
+	cursor: pointer;
+	margin-bottom: 20px
+}
+.pushy-contact__email:hover{
+	color: #000
+}

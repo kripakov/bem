@@ -1,0 +1,22 @@
+.v-menu_cnf_config ul{
+	width: 300px;
+	margin: 0
+}
+.v-menu_cnf_config li{
+	width: 100%;
+}
+.v-menu_cnf_config li:first-child{
+	background-color: #2c3346;
+}
+.v-menu_cnf_config li:first-child a{
+	padding: 22px;
+}
+.v-menu_cnf_config li{
+	background-color: #7d7e82;
+}
+.v-menu_cnf_config li:not(:last-child){
+	border-bottom: 2px solid #6e90ec;
+}
+.v-menu_cnf_config a{
+	color: #b13636
+}

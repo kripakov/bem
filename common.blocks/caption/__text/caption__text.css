@@ -1,0 +1,11 @@
+.caption__text{
+	display: flex;
+    margin: 5em auto;
+    width: 57%;
+    height: 101px;
+    line-height: 90px;
+	color: #fff;
+	font-family: "Ubuntu-Bold";
+	font-size: 42px;
+	color: #ffff;
+}

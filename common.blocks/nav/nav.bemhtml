@@ -1,0 +1,13 @@
+block('nav')(
+  tag()('ul')
+)
+
+/*block('nav')(
+  tag()('ul').content()(function(el){
+  	var txt = this.text;
+  	return [{
+  		tag: 'li',
+        content: this.ctx.text
+  	}]
+  })
+)*/

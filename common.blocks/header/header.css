@@ -1,0 +1,9 @@
+.header{
+	width: 65%;
+  	margin: 0 auto;
+}
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}

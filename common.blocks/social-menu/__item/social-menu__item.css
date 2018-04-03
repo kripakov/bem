@@ -1,0 +1,16 @@
+.social-menu__item{
+	margin: 0 0 0 1px;
+    padding: 0;
+    float: left;
+    position: relative;
+    left: 50%;
+    top: 1px;
+    margin-right: 10px
+}
+.social-menu__item:hover ul, .social-menu__item.hover ul{
+	display: block;
+}
+.social-menu__item img{
+    width: 37px;
+    cursor: pointer;
+}

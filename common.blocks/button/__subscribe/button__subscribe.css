@@ -1,0 +1,11 @@
+.button__subscribe{
+	background-color: #9b9b9b
+}
+.button__subscribe:hover{
+	background-color: #000;
+	transition: all .5s ease;
+	z-index: 999
+}
+.button__subscribe:hover span{
+	color: #fff
+}

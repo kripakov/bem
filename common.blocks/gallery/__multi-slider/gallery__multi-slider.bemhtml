@@ -1,0 +1,9 @@
+block('main-slider').elem('section')(
+  tag()('span')
+)
+block('main-slider').elem('list')(
+  tag()('div')
+)
+block('main-slider').elem('item')(
+  tag()('div')
+)

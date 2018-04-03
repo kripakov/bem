@@ -1,0 +1,22 @@
+.v-menu__item{
+	min-height: 1px;
+    line-height: 1em;
+    vertical-align: middle;
+    position: relative;
+}
+.v-menu__item a{
+    color: #fff;
+    display: block;
+    font-family: "Ubuntu-Regular";
+    font-size: 12px;
+    line-height: 180%;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.v-menu__item:hover ul{
+	display: block;
+}
+.v-menu__item a:hover{
+    color: #000
+}

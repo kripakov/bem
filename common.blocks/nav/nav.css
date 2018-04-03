@@ -1,0 +1,11 @@
+.nav{
+	
+}
+.nav li {
+	text-decoration: none;
+}
+.nav a{
+	font-family: "Ubuntu-Regular";
+	font-size: 16px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,16 @@
+.image__item{
+	height: 100% !important;
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.image__item div{
+	height: 100% !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 122%;
+}
+
+.active{
+	display: block;
+}

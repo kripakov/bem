@@ -1,0 +1,15 @@
+.square__item {
+	float: left;
+	height: 220px;
+    display: block !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+.square__item .bgr{
+	height: 300px;
+    position: absolute;
+}
+.square__item img{
+	position: absolute;
+}

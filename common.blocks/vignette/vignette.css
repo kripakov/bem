@@ -1,0 +1,35 @@
+.vignette{
+	display: block;
+	background: url(../../../img/bg-02-home.jpg) center/100% 100% no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.vignette:after {
+	content: '';
+    position: absolute;
+    
+    /* Center element on the middle of it's parent */
+    top: 50%;
+    left: 50%;
+    
+    /* Reset back the image so it's center is locked on the center of the parent */
+    transform: translate(-50%,-50%);
+    
+    /* Only set the width of the image */
+    width: 120%;
+    
+    /* Using the padding trick, we force the elments padding bottom to push down the height */
+    /* To form a square, the padding-bottom, needs to have the same value as the width property */
+    padding-bottom: 120%;
+    
+	box-shadow: inset 120px 0px 550px 448px rgba(0,0,0,0.8);
+    border-radius: 50%;
+}
+
+.vignette img {
+    max-width: 100%;
+    display: block;
+}

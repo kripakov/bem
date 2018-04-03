@@ -1,0 +1,9 @@
+.v-menu__list .v-menu__itm:not(:first-child) a{
+    color: #352f2f;
+    font-size: 18px;
+    font-family: 'Ubuntu-Regular';
+}
+
+.footer__v-menu a:not(:first-child){
+	color: #888888;
+}

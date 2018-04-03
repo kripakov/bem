@@ -1,0 +1,11 @@
+.video{
+	display: none;
+    position: absolute;
+    top: -217%;
+    margin: 0 auto;
+    text-align: center;
+    left: 16%;
+}
+.video video{
+	width: 900px;
+}

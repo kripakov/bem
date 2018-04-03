@@ -1,0 +1,6 @@
+.grid__item{
+	width: 280px;
+}
+.grid__item:hover .text__wrap-grid {
+	opacity: 1
+}

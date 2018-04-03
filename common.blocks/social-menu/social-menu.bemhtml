@@ -1,0 +1,6 @@
+block('social-menu').elem('list')(
+	tag()('ul')
+)
+block('social-menu').elem('item')(
+	tag()('li')
+)

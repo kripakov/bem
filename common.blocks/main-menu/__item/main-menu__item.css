@@ -1,0 +1,49 @@
+.main-menu__item
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 65px;
+    cursor: pointer;
+}
+.main-menu__item .b-link {
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    vertical-align: top;
+    background: url("menu_items_bg_sprite.png") repeat-x;
+}
+.main-menu__item a:hover{
+    color: #9b9b9b
+}
+.main-menu__item:first-child .b-link {
+    border-radius: 5px 0 0 5px;
+}
+
+.main-menu__item:last-child .b-link {
+    border-radius: 0 5px 5px 0;
+}
+
+.main-menu__item .b-link:hover {
+    background-position: 0 -35px;
+}
+
+.main-menu__item .b-link:active {
+    background-position: 0 -70px;
+    box-shadow: inset 1px 5px 10px rgba(119, 119, 119, 0.58);
+}
+
+.main-menu__item_state_current {
+
+}
+
+.main-menu__item:last-child:after {
+    background: none;
+}
+
+/*.main-menu__item:first-child:after {
+    background: none;
+}*/

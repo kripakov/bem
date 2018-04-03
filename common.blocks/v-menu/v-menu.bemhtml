@@ -1,0 +1,9 @@
+block('v-menu').elem('list')(
+	tag()('ul')
+)
+block('v-menu').elem('item')(
+	tag()('li')
+)
+block('v-menu').elem('inner-ul')(
+	tag()('ul')
+)

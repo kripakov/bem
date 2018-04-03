@@ -1,0 +1,11 @@
+.social-menu{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 90%;
+    z-index: 1000;
+    position: relative; 
+}

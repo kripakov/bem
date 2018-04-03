@@ -1,0 +1,14 @@
+.main-menu__item_mgr_wd{
+	margin: 0px;
+	
+}
+.main-menu__item_mgr_wd a{
+    display: block;
+    width: 95px;
+    line-height: 120px;
+    height: 113px;
+}
+.main-menu__item_mgr_wd a:hover{
+	background-color: #50596f;
+	transition: all .5s ease;
+}

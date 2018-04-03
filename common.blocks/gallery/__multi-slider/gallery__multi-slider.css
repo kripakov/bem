@@ -1,0 +1,10 @@
+.gallery__multi-slider{
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+	height: 21%;
+}
+
+.gallery__multi-slider .bx-viewport{
+	height: 130px !important;
+}

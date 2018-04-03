@@ -1,0 +1,13 @@
+.product__product{    
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    padding: 75px 0 50px 0;
+}
+
+.bar-wrap .progressbar{
+	display: inline-block;
+}
+.bar-wrap .progressbar:not(:last-child){
+
+}

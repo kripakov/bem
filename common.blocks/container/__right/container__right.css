@@ -1,0 +1,7 @@
+.container__right{
+	float: right;
+	width: 76%;
+}
+.container__right .wrap{
+	display: inline-block;
+}

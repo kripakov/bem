@@ -1,0 +1,9 @@
+block('main-menu').elem('section')(
+  tag()('span')
+)
+block('main-menu').elem('list')(
+  tag()('ul')
+)
+block('main-menu').elem('item')(
+  tag()('span')
+)

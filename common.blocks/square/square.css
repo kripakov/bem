@@ -1,0 +1,9 @@
+.square{
+	height: 250px !important;
+}
+.active {
+	display: block;
+}
+.on-active{
+	display: none;
+}

@@ -1,0 +1,9 @@
+.description {
+	position: absolute;
+    top: 70%;
+    left: 57%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    text-align: center;
+}

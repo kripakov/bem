@@ -1,0 +1,11 @@
+.footer .information, .service, .categories, .follow{
+	float: left;
+	width: 25%;
+	text-align: left;
+}
+.footer a:not(:first-child){
+	color: #888888;
+}
+.footer{
+	height: 20%;
+}

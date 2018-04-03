@@ -1,0 +1,8 @@
+.grid__wrap .landing{
+	position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.grid__wrap .grid{
+	width: 2800px;
+}

@@ -1,0 +1,47 @@
+.pushy__image button{
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    border: none;
+    width: 36px;
+    height: 30px;
+    outline: none;
+    -webkit-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+}
+
+.pushy__image button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  right: auto;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#98B296), color-stop(20%, #98B296), color-stop(20%, transparent), color-stop(40%, transparent), color-stop(40%, #98B296), color-stop(60%, #98B296), color-stop(60%, transparent), color-stop(80%, transparent), color-stop(80%, #98B296), to(#98B296));
+  background: linear-gradient(to bottom, #98B296, #98B296 20%, transparent 20%, transparent 40%, #98B296 40%, #98B296 60%, transparent 60%, transparent 80%, #98B296 80%, #98B296 100%);
+  -webkit-transition: opacity 0.2s ease-out, width 0.2s 0.2s ease-out;
+  transition: opacity 0.2s ease-out, width 0.2s 0.2s ease-out;
+}
+.pushy__image button:after {
+  opacity: 0;
+  content: '×';
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: -4px;
+  font-family: Arial, sans-serif;
+  font-size: 76px;
+  line-height: 0;
+  -webkit-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+.pushy__image button:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+.pushy__image button:hover {
+  opacity: 1;
+}

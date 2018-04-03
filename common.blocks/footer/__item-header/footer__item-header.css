@@ -1,0 +1,9 @@
+.footer__item-header{
+	font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Ubuntu-Regular";
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}

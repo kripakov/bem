@@ -1,0 +1,25 @@
+.gallery {
+	height: 83%;
+  width: 100%;
+  position: relative;
+}
+
+.gallery .main-slider__list {
+  background: #fff;
+}
+.gallery .main-slider__list .main-slider__item {
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+.gallery .main-slider__list .main-slider__item:after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: #f5f5f5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

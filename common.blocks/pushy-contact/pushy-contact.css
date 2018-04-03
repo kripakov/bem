@@ -1,0 +1,10 @@
+.pushy-contact{
+	width: 200px;
+    margin-left: 22%;
+}
+.tel,.email {
+    float: left;
+    color: #fff;
+    font-family: "Ubuntu-Regular";
+    margin-bottom: 10px;
+}
